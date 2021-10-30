@@ -47,7 +47,7 @@
         </div>
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
-            <li class="mr-3">
+            <!-- <li class="mr-3">
               <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
             </li>
             <li class="mr-3">
@@ -55,13 +55,13 @@
             </li>
             <li class="mr-3">
               <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-            </li>
+            </li> -->
           </ul>
           <button
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
-            Action
+            Join the discord server
           </button>
         </div>
       </div>
@@ -72,12 +72,12 @@
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">What business are you?</p>
+          <p class="uppercase tracking-loose w-full">Looking to create 3commas bots and backtest strategies?</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
+            Try out the Amor Fati tradingview strategy!
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just right!
+            Backtest complex strategies, long & short, and even dollar cost averaging.
           </p>
           <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Subscribe
@@ -553,7 +553,7 @@
               </div>
               <div class="flex items-center justify-center">
                 <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
+                    <a href="#!" class="paddle_button" data-product="18114"  data-theme="none">Buy Now!</a>
                 </button>
               </div>
             </div>
@@ -777,6 +777,11 @@
         }
         return false;
       }
+    </script>
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    <script type="text/javascript">
+      Paddle.Environment.set('sandbox');
+      Paddle.Setup({ vendor: 3337 });
     </script>
   </body>
 </html>
