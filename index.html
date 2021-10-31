@@ -178,7 +178,7 @@
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                39€
+                39€*
                 <span class="text-base">/ month</span>
               </div>
               <div class="flex items-center justify-center">
@@ -204,7 +204,7 @@
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div class="w-full pt-6 text-4xl font-bold text-center">
-                327€
+                327€*
                 <span class="text-base">/ year</span>
               </div>
               <div class="flex items-center justify-center">
@@ -229,7 +229,7 @@
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                105€
+                105€*
                 <span class="text-base">/ every 3 months</span>
               </div>
               <div class="flex items-center justify-center">
@@ -240,7 +240,9 @@
             </div>
           </div>
         </div>
-      </div>
+        <p class="w-full my-2 font-bold leading-tight text-center text-gray-600">*Taxes may apply depending on your region.</p> 
+    </div>
+      
     </section>
     <!-- <section class="bg-gray-100 text-gray-800">
         <div class="container mx-auto px-4">
@@ -482,18 +484,12 @@
         return false;
       }
     </script>
-    <!-- <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
     <script type="text/javascript">
       Paddle.Environment.set('sandbox');
-      Paddle.Setup({ vendor: 3337,successCallback: "checkoutComplete",
-        closeCallback: "checkoutClosed" });
-
-      function checkoutComplete(data) {
-        console.log(data);
-        alert('Thanks for your purchase.');
-        }
+      Paddle.Setup({ vendor: 3337 });
 
 
-    </script> -->
+    </script>
   </body>
 </html>
